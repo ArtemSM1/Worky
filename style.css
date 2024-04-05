@@ -1,0 +1,999 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.142;
+    font-family: "Montserrat", Sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.li1 > a {
+    color: #f7992b;
+}
+
+
+.promo {
+    position: relative;
+    height: 100vh;
+    min-height: 800px;
+    background: url("https://ld-wp.template-help.com/wordpress_free/23520/wp-content/uploads/2019/04/slide-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+}
+
+.promo__wrapper {
+    position: relative;
+    z-index: 3;
+}
+
+
+
+.promo__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.promo__content__btn {
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 55px;
+}
+
+.promo__btn {
+    color: #ffffff;
+    font-family: "Oswald", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.714em;
+    letter-spacing: 5.4px;
+    text-decoration: none;
+    background-color: #f7992b;
+    padding: 18px 38px 18px 47px;
+    border-color: #F7992B;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+
+.advantages__content__btn {
+    display: flex;
+    align-items: center;
+    margin-top: 50.01px;
+}
+
+.advantages__btn {
+    font-family: "Oswald", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.714em;
+    letter-spacing: 5.4px;
+    color: #F7992B;
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px 0px 0px 0px;
+    padding: 18px 38px 18px 47px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F7992B;
+    text-decoration: none;
+}
+
+.promo__content__text {
+    color: #ffffff;
+    font-family: "Oswald", Sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+.promo__content__text > h2 {
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 90px;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+
+.promo__content__text > p {
+    font-size: 38px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    line-height: 42px;
+    letter-spacing: 1.4px;
+}
+
+.promo2__text__col1__content {
+    text-transform: uppercase;
+    font-family: "Oswald", Sans-serif;
+}
+
+.promo2__text__col1__content__top > h5 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.285em;
+    letter-spacing: 1.4px;
+}
+
+.promo2__text__col1__wrapper {
+    padding-left: 45px;
+    padding-right: 15px;
+}
+
+.promo2__text__col2__wrapper {
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-right: 15px;
+}
+
+.promo2__text__col1__content__center {
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.promo2__text__col1__content__center > h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.125em;
+    letter-spacing: 2.4px;
+}
+
+.promo2__text__col2__wrapper__text1 {
+    margin-bottom: 20px;
+}
+
+.promo2__text__col2__wrapper__text2 {
+    margin-bottom: 14px;
+}
+
+.promo2__text__col2__content__text1 > p {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2.143em;
+}
+
+.promo2__text__col2__content__text2 > p {
+    color: #000000;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.143em;
+}
+
+.promo2__text__wrapper__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 324px;
+}
+
+.promo2 {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    height: 324px;
+}
+
+.promo2 {
+    height: 324px;
+}
+
+.promo2__text__wrapper {
+    height: 324px;
+}
+
+.promo2__text__col1 {
+    max-width: 420px;
+    height: 324px;
+}
+.promo2__text__col2 {
+    max-width: 620px;
+}
+
+
+.header {
+    background-color: #3b3d42;
+}
+
+.header > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #3b3d42;
+}
+
+.logo {
+    list-style: none;
+}
+
+.logo a > img {
+    max-width: 200px;
+}
+
+.li > a {
+    color: #fff;
+}
+
+
+.nav a {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-style: normal;
+    width: 57px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+.promo2__text__col1__content__bottom {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.col1_center2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.promo2__text__col1__content__bottom__span {
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: #F7992B;
+    display: block;
+    width: 70px;
+}
+
+.animated__cards__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animated__cards__n1__wrapper {
+    width: 350px;
+    height: 513px;
+    background-image: url("https://ld-wp.template-help.com/wordpress_free/23520/wp-content/uploads/2019/04/Engineering.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.animated__cards__n2__wrapper {
+    width: 350px;
+    height: 513px;
+    background-image: url("https://ld-wp.template-help.com/wordpress_free/23520/wp-content/uploads/2019/04/Architecture.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.animated__cards__n3__wrapper {
+    width: 350px;
+    height: 513px;
+    background-image: url("https://ld-wp.template-help.com/wordpress_free/23520/wp-content/uploads/2019/04/Interior-Design.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.animated__cards__n1__text__wrapper {
+    padding-bottom: 70px;
+}
+
+.animated__cards__n2__text__wrapper {
+    padding-bottom: 70px;
+}
+
+.animated__cards__n3__text__wrapper {
+    padding-bottom: 70px;
+}
+
+.animated__cards__n2 {
+    z-index: 3;
+}
+.animated__cards__n3 {
+    z-index: 3;
+}
+
+.animated__cards__n1__text__content > a {
+    padding: 24px 12px;
+    font-family: "Oswald", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 54px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+}
+
+.animated__cards__n2__text__content > a {
+    padding: 24px 12px;
+    font-family: "Oswald", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 54px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+}
+
+.animated__cards__n3__text__content > a {
+    padding: 24px 12px;
+    font-family: "Oswald", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 54px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0);
+    text-decoration: none;
+}
+
+.advantages {
+    display: flex;
+    position: relative;
+    margin-top: 264px;
+}
+
+.advantages__col1__wrap {
+    background-color: #000000;
+    color: #fff;
+    width: 1200px;
+    z-index: 1;
+}
+
+.advantages__col1 {
+    width: 620px;
+    height: 715px;
+    padding-left: 310px;
+}
+
+.advantages__col1__text__wrap {
+    font-family: "Oswald", Sans-serif;
+    padding-top: 113px;
+}
+
+.advantages__col1__top > h5 {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.285em;
+    letter-spacing: 1.8px;
+}
+
+.advantages__col1__center {
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.advantages__col1__center > h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.3333em;
+    letter-spacing: 1.8px;
+}
+
+.advantages__col2__wrap {
+    background-color: #f7992b;
+    color: #fff;
+    width: 930px;
+    height: 1030px;
+    position: absolute;
+    left: 50%;
+    top: -65%;
+    background-image: url("https://ld-wp.template-help.com/wordpress_free/23520/wp-content/uploads/2019/04/home-testimonials-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+
+.advantages__col2__background__color {
+    width: 930px;
+    height: 1030px;
+    background-color: #f7992b;
+    opacity: 0.9;
+}
+
+.advantages_col2 {
+    width: 803px;
+    height: 512px;
+    padding: 369px 15px 148px 114px;
+    position: relative;
+}
+
+
+
+.advantages__col2__top__icon {
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+
+.advantages__col2__top {
+    margin-bottom: 35px;
+}
+
+.advantages__col2__top > h5 {
+    font-family: "Oswald", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.285em;
+    letter-spacing: 1.4px;
+}
+
+.advantages__col2__center {
+    height: 132px;
+    display: flex;
+    align-items: center;
+}
+
+.advantages__col2__center > h2 {
+    font-family: "Oswald", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.3333em;
+    letter-spacing: 1.8px;
+}
+
+.advantages__col2__bottom {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: none;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 36px;
+    letter-spacing: 0px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.advantages__col2__bottom > p {
+    margin: 19px 0px 33px 0px;
+    padding: 0px 150px 0px 0px;
+
+}
+
+.advantages__col2__top__icon > img {
+    width: 115px;
+    height: 115px;
+    opacity: 35%;
+}
+
+.advantages__col1__center2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.advantages__col1__bottom {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.143em;
+    margin-top: 19px;
+    margin-bottom: 14px;
+    width: 500px;
+}
+
+.advantages__col2__content__bottom2 {
+    font-family: "Oswald", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 58px;
+    letter-spacing: 1.8px;
+}
+
+.advantages__col2__line__content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.advantages__col2__line {
+    border-top-style: solid;
+    border-top-width: 4px;
+    border-top-color: #ffffff;
+    width: 70px;
+    display: block;
+}
+
+.promo3 {
+    padding: 75px 0px 47px 0px;
+}
+
+.promo3__text__col1__content {
+    padding: 0px 15px 0px 45px;
+}
+
+
+.promo3__text__col1__content__top > h5{
+    font-family: "Oswald", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.285em;
+    letter-spacing: 1.4px;
+}
+
+.promo3__text__col1__content__center {
+    margin: 20px 0px 18px 0px;
+    width: 360px;
+}
+
+.promo3__text__col1__content__center > h2 {
+    font-family: "Oswald", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.125em;
+    letter-spacing: 2.4px;
+}
+
+.promo3__text__col2__wrapper {
+    width: 640px;
+    height: 200px;
+}
+
+.promo3__text__col2__wrapper__text {
+    padding: 36px 15px 0px 27px;
+    margin-bottom: 14px;
+}
+
+.promo3__text__col2__content__text > p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.142;
+    font-family: "Montserrat", Sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.promo3__text__wrapper__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.gallery {
+    padding: 0px 0px 0px 4px;
+}
+
+.gallery__item {
+    padding: 0 15px 15px 0;
+}
+
+.gallery__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery__content__btn {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gallery__btn {
+    font-family: "Oswald", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.714em;
+    letter-spacing: 5.4px;
+    color: #F7992B;
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px 0px 0px 0px;
+    padding: 18px 38px 18px 47px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #F7992B;
+    text-decoration: none;
+}
+
+.promo3__gallery__item__content {
+    margin: 0px 0px 30px 0px;
+}
+
+.promo3__gallery__item {
+    align-content: center;
+    padding: 0px 5px 0px 5px;
+}
+
+.promo3__gallery__item__content__img {
+    width: 188.7px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+}
+
+.promo3__gallery__col1 {
+    display: flex;
+}
+
+.promo3__gallery__col2 {
+    display: flex;
+}
+
+.contactus {
+    padding: 82px 15px 71px 15px;
+}
+
+.contactus__text__col1__content__top  > h5 {
+    font-family: "Oswald", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.285em;
+    letter-spacing: 1.4px;
+}
+
+.contactus__text__col1__content__center {
+    margin-top: 18px;
+    margin-bottom: 18px
+}
+
+.contactus__text__col1__content__center > h2 {
+    font-family: "Oswald", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.3333em;
+    letter-spacing: 1.8px;
+}
+
+.contactus__text__col1__content__bottom > p > a {
+    text-decoration: none;
+    color: #f7992b;
+}
+
+.contactus__text__col1__content__bottom {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.2em;
+    margin-bottom: 1em;
+    margin-top: 17px;
+}
+
+.contactus__text__col1__content__bottom__contacts__row > a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.4em;
+    color: #000000;
+}
+
+.contactus__text__col1__wrapper {
+    padding: 0px 25px 0px 130px;
+}
+
+.contactus__text__wrapper__row {
+    display: flex;
+}
+
+.contactus__text__col2__wrapper {
+    padding: 0px 113px 0px 0px;
+    width: 100%;
+}
+
+input {
+    font-size: 14px;
+}
+
+textarea {
+    overflow: auto;
+    min-height: 150px;
+    resize: vertical;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: 1px solid #ebeced;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+input[type='button'] {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 1;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #f7992b;
+    display: inline-block;
+    max-width: 100%;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.rekl {
+    background-image: url("https://ld-wp.template-help.com/wordpress_free/23520/wp-content/uploads/2019/04/Group-2.1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 15px 20px 15px;
+}
+
+.rekl1 {
+    display: flex;
+    width: 100%;
+    background: #20252d;
+    background: linear-gradient(139deg,rgba(32,37,45,1) 0%,rgba(31,38,47,1) 33%,rgba(43,50,56,1) 81%);
+    justify-content: center;
+}
+
+.rekl__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form > form > p{
+    margin-bottom: 16px;
+}
+
+.footer__wrapper {
+    font-size: 11px;
+    font-size: .6875rem;
+    line-height: 20px;
+}
+
+.footer__content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer__copyright > a {
+    text-decoration: none;
+    color: #f7992b;
+}
+
+.li > a {
+    transition: 0.3s;
+}
+
+.li > a:hover {
+    color: #f7992b;
+    transition: 0.3s;
+}
+
+.promo__btn {
+    transition: all 0.5s;
+}
+
+.promo__btn:hover {
+    transition: all 0.5s;
+    color: #f7992b;
+    background-color: rgba(247,247,247,0);
+}
+
+.advantages__btn {
+    transition: all 0.5s;
+}
+
+.advantages__btn:hover {
+    transition: all 0.5s;
+    color: #ffffff;
+    background-color: #F7992B;
+    border-color: #F7992B;
+}
+
+.gallery__btn {
+    transition: all 0.5s;
+}
+
+.gallery__btn:hover {
+    transition: all 0.5s;
+    color: #ffffff;
+    background-color: #F7992B;
+    border-color: #F7992B;
+}
+
+input[type='button'] {
+    transition: all 0.3s;
+}
+
+input[type='button']:hover {
+    transition: all 0.3s;
+    color: #ffffff;
+    background-color: rgb(255,191,81);
+}
+
+.animated__cards__n1__text__content > a {
+    transition: all 0.5s;
+}
+
+.animated__cards__n1__text__content > a:hover {
+    transition: all 0.5s;
+    color: #f7992b;
+}
+
+.animated__cards__n2__text__content > a {
+    transition: all 0.5s;
+}
+
+.animated__cards__n2__text__content > a:hover {
+    transition: all 0.5s;
+    color: #f7992b;
+}
+
+.animated__cards__n3__text__content > a {
+    transition: all 0.5s;
+}
+
+.animated__cards__n3__text__content > a:hover {
+    transition: all 0.5s;
+    color: #f7992b;
+}
+
+.contactus__text__col1 {
+    overflow: hidden;
+}
+
+.promo3__text__col1__wrapper {
+    overflow: hidden;
+}
+
+.promo2__text__col1__content {
+    overflow: hidden;
+}
+
+
+
+
+.animated {
+    transform: translateX(200%);
+    transition: 1.5s;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.animated.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.animated2 {
+    transform: translateX(-200%);
+    transition: 2s;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.animated2.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.animated3 {
+    transform: translateX(200%);
+    transition: 2.5s;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.animated3.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.animated4 {
+    transform: translateX(-200%);
+    transition: 2s;
+    opacity: 0;
+}
+
+.animated4.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.animated5 {
+    transform: translateY(-150%);
+    transition: 2s;
+    opacity: 0;
+}
+
+.animated5.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.contactus__text__col1__content__bottom > p > a:hover {
+    color: #000000;
+    transition: all 0.5s;
+}
+
+.contactus__text__col1__content__bottom > p > a {
+    transition: all 0.5s;
+}
