@@ -796,27 +796,7 @@ input[type='button'] {
     border: none;
 }
 
-.rekl {
-    background-image: url("https://ld-wp.template-help.com/wordpress_free/23520/wp-content/uploads/2019/04/Group-2.1.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px 15px 20px 15px;
-}
 
-.rekl1 {
-    display: flex;
-    width: 100%;
-    background: #20252d;
-    background: linear-gradient(139deg,rgba(32,37,45,1) 0%,rgba(31,38,47,1) 33%,rgba(43,50,56,1) 81%);
-    justify-content: center;
-}
-
-.rekl__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .form > form > p{
     margin-bottom: 16px;
